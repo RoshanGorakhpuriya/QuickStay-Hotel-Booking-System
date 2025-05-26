@@ -1,6 +1,7 @@
 import React from 'react'
-import { assets } from '../assets/assets'
-const StartRating = ({rating=4}) => {
+import { assets } from '../assets/assets';
+
+const StarRating = ({rating=4}) => {
   return (
     <>
       {Array(5).fill('').map((_, index) => (
@@ -10,4 +11,4 @@ const StartRating = ({rating=4}) => {
   )
 }
 
-export default StartRating
+export default StarRating;
