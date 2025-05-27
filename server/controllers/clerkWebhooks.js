@@ -52,5 +52,3 @@ import User
 export default clerkWebhooks;
 
 
-api/clerk.js
-
